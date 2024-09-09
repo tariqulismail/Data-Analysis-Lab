@@ -1,6 +1,6 @@
 # 🌏 Bangladesh Weather Analysis Dataset (1900-2023)
 
-## Integrating ❄Kaggle Dataset to Python 🐍 to SQLSERVER 🛢 can enhance data analysis 📊 by allowing to perform advanced analysis and data manipulation.
+### Integrating ❄Kaggle Dataset to Python 🐍 to SQLSERVER 🛢 can enhance data analysis 📊 by allowing to perform advanced analysis and data manipulation.
 
 ### ✅ Overview: The dataset provides a comprehensive look at the weather patterns in Bangladesh from 1900 to 2023, focusing on temperature (tem), rainfall (rain), and seasonality. The data also categorizes the weather into temperature (temp_category) and rainfall (rain_category) levels such as Low, Medium, and High, allowing for nuanced insights into the country's climatic changes over the years.
 
