@@ -63,10 +63,67 @@ ORDER BY EXTRACT(Year FROM payment_date) , to_char(payment_date, 'Month');
 
 
 * **Analysis 4**: Top 3 Countries by Total Revenue
+```SQL
+SELECT 
+    c.country,
+    SUM(p.amount) AS revenue
+FROM saas_customers c
+JOIN saas_payments p ON c.customer_id = p.customer_id
+--where ROWNUM <= 3
+GROUP BY c.country
+ORDER BY revenue DESC
+FETCH NEXT 3 ROWS ONLY;
+```
+  
 * **Analysis 6**: Revenue by Plan Type
+
+```SQL
+SELECT 
+    s.plan,
+    SUM(p.amount) AS revenue
+FROM saas_subscriptions s
+JOIN saas_payments p ON s.customer_id = p.customer_id
+GROUP BY s.plan;
+```
+  
 * **Analysis 7**: Average Revenue per Active User (ARPU)
+```SQL
+SELECT 
+    ROUND(SUM(p.amount) * 1.0 / COUNT(DISTINCT s.customer_id), 2) AS arpu
+FROM saas_subscriptions s
+JOIN saas_payments p ON s.customer_id = p.customer_id
+WHERE s.is_active = 1;
+```
+
 * **Analysis 10**: Revenue growth over time by plan or country
+```SQL
+SELECT 
+    to_char(p.payment_date, 'Month') AS month,
+    s.plan,
+    c.country,
+    SUM(p.amount) AS revenue
+FROM saas_payments p
+JOIN saas_subscriptions s ON p.customer_id = s.customer_id
+JOIN saas_customers c ON p.customer_id = c.customer_id
+where p.payment_date between '01-jan-2023' and '31-dec-2023'
+GROUP BY to_char(p.payment_date, 'Month'), s.plan,
+    c.country
+ORDER BY 1;
+```
+
+
 * **Analysis 11**: ARPU by segment
+```SQL
+SELECT 
+    s.plan,
+    c.country,
+    SUM(p.amount) / COUNT(DISTINCT p.customer_id) AS arpu
+FROM saas_payments p
+JOIN saas_customers c ON c.customer_id = p.customer_id
+JOIN saas_subscriptions s ON s.customer_id = c.customer_id
+WHERE s.is_active = 1
+GROUP BY s.plan, c.country;
+```
 
 ### 👋 Customer Engagement
 
