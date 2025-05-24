@@ -67,10 +67,11 @@ Analysis 13: Churn prediction based on usage + payment + subscription data
 
 🛠️ 
 
-## 📦 Project Structure
-View Technical Mind Map
 
-Key Technical Components
+## 📦 View Technical Mind Map
+
+
+## Key Technical Components
 Data Generation
 
 Python Faker library implementation
