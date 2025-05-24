@@ -27,7 +27,6 @@ The database consists of four interconnected tables that capture the complete cu
 * **Payments Table**: Holds all transactional data, including payment methods and key financial metrics.
 * **User Activity Table**: Tracks behavioral data, providing insights into feature engagement and user interaction patterns.
 
-![Database Schema](https://i.imgur.com/3Y11eU2.png)
 
 ### Data Flow Process
 
@@ -39,7 +38,6 @@ The implementation follows a standard ETL (Extract, Transform, Load) workflow to
 4.  **SQL Analysis**: A suite of 13 analytical queries is executed to derive meaningful business insights.
 5.  **Visualization & Reporting**: The results are presented in actionable formats, such as dashboards and reports, for easy interpretation by business users.
 
-![Data Flow Diagram](https://i.imgur.com/7gN08nQ.png)
 
 ---
 
@@ -47,13 +45,23 @@ The implementation follows a standard ETL (Extract, Transform, Load) workflow to
 
 The 13 SQL analyses are strategically categorized into four core business dimensions, providing a comprehensive and multi-faceted view of your SaaS business performance.
 
-![Analysis Framework Mind Map](https://i.imgur.com/1hF9V7T.png)
 
 ### 💰 Revenue Analytics
 
 These analyses focus on understanding and optimizing revenue streams.
 
 * **Analysis 1**: Monthly Revenue Trend
+```SQL
+SELECT 
+    EXTRACT(Year FROM payment_date) AS Year,   
+    to_char(payment_date, 'Month') AS month,
+    SUM(amount) AS total_revenue
+FROM saas_payments
+GROUP BY EXTRACT(Year FROM payment_date), to_char(payment_date, 'Month')
+ORDER BY EXTRACT(Year FROM payment_date) , to_char(payment_date, 'Month');
+```
+
+
 * **Analysis 4**: Top 3 Countries by Total Revenue
 * **Analysis 6**: Revenue by Plan Type
 * **Analysis 7**: Average Revenue per Active User (ARPU)
