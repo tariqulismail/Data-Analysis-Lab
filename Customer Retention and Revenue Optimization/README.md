@@ -1,11 +1,19 @@
 
 
-# Customer 360 Data Integration Project
+# Customer Analytics for Retention and Revenue Optimization
 
 ## 📋 Overview
-This project implements a comprehensive Customer 360 Data Integration solution that extracts, transforms, and loads customer-related data from various sources into a centralized data warehouse (Amazon Redshift). The goal is to create a unified customer view for analytics and business intelligence dashboards.
+Project Overview
+This comprehensive analytics solution leverages SQL data analysis to help SaaS businesses optimize customer retention and revenue generation. The project delivers actionable insights through a multi-dimensional approach that connects customer data, subscription information, payment history, and user engagement metrics.
+Data Architecture
+The project is built on a robust database schema consisting of four interconnected tables that capture the complete customer journey:
 
-![Customer 360 Data Integration Mindmap](https://cdn1.genspark.ai/user-upload-image/imagen_generated/80467853-7a20-42be-bea0-fa73e9b2efcd)
+Customers Table: Core customer demographic information, including geographical distribution
+Subscriptions Table: Plan details, subscription timeline, and current status
+Payments Table: Transactional data including payment methods and financial metrics
+User Activity Table: Behavioral data showing feature engagement patterns
+
+![SaaS Customer Analytics - Database Schema](https://fwmjyrar.gensparkspace.com/)
 
 ## 🏗️ Architecture
 
