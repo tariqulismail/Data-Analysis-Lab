@@ -1,4 +1,4 @@
-# SaaS Customer Analytics for Retention and Revenue Optimization
+# Customer Analytics for Retention and Revenue Optimization
 
 ## 🚀 Project Overview
 
@@ -153,7 +153,6 @@ This area focuses on forward-looking analytics to proactively manage customer ch
 
 The project leverages a modern and scalable tech stack to deliver robust analytics capabilities.
 
-![Technical Implementation Mind Map](https://i.imgur.com/S6M9v3X.png)
 
 ### Data Generation
 
@@ -205,7 +204,7 @@ Follow these steps to get the project up and running in your local environment.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/saas-customer-analytics.git](https://github.com/your-username/saas-customer-analytics.git)
+    git clone [https://github.com/tariqulismail/Data-Analysis-Lab/tree/main/Customer%20Retention%20and%20Revenue%20Optimization]
     ```
 2.  Navigate to the project directory:
     ```bash
