@@ -5,6 +5,11 @@ When I first opened that customer data file containing 7,043 telco customers, I 
 
 Here's how I built a predictive model that identified at-risk customers and created targeted retention strategies. The results? A potential 20% reduction in churn and $194,649 in annual savings. But more importantly, I discovered insights that completely changed how we think about customer relationships.
 
+## **Dashboard**
+
+![Dashboard](telco_churn_executive_dashboard.png)
+
+
 ### The Problem That Keeps CEOs Awake 😰
 Customer churn isn't just a number on a dashboard – it's the silent killer of revenue growth. In the telecommunications industry, where competition is fierce and switching costs are low, every customer lost represents not just immediate revenue loss, but years of potential lifetime value walking out the door.
 
