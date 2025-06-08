@@ -1,0 +1,47 @@
+TELCO CUSTOMER CHURN: EXECUTIVE SUMMARY
+==================================================
+
+OVERVIEW
+--------------------
+• Overall Churn Rate: 26.5%
+• Annual Revenue Loss: $1,669,570.20
+• Potential Annual Savings Through Retention: $194,917.18
+
+KEY CHURN FACTORS
+--------------------
+• Month-to-month contracts: 42.7% churn rate
+• Tenure < 12 months: 48.3% churn rate
+• Electronic payment: 45.3% churn rate
+• Fiber optic internet: 41.9% churn rate
+• No online security: 41.8% churn rate
+
+CUSTOMER SEGMENTS
+--------------------
+• High-Risk Short-Term Customers: 54.3% churn rate
+  13.2 months tenure, $81.86 monthly charges
+• Midterm Moderate-Usage Customers: 23.3% churn rate
+  10.3 months tenure, $31.34 monthly charges
+• Recent Low-Usage Customers: 14.7% churn rate
+  59.3 months tenure, $93.19 monthly charges
+• Loyal High-Value Customers: 7.0% churn rate
+  48.5 months tenure, $41.33 monthly charges
+
+RECOMMENDED RETENTION STRATEGIES
+--------------------
+• High-Risk Customers: Contract term incentives, proactive tech support, personalized bundles
+• Medium-Risk Customers: Cross-sell with free trials, service bundles, anniversary rewards
+• Month-to-Month Customers: Targeted contract conversion with incentives for 1+ year commitments
+• Service Enhancements: Add online security & tech support to bundles, improve reliability
+
+IMPLEMENTATION PLAN
+--------------------
+1. High Priority (Immediate): Target high-risk customers with personalized outreach
+2. Medium Priority (Q2): Convert month-to-month customers with 12-24 month tenure
+3. Ongoing: Service quality improvements and contract structure optimization
+
+EXPECTED RESULTS
+--------------------
+• Reduce overall churn rate from 26.5% to 22.6%
+• Annual revenue protection: $194,917.18
+• Increased customer lifetime value across all segments
+• Higher customer satisfaction and NPS scores
