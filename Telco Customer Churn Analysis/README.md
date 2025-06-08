@@ -24,10 +24,11 @@ I spent weeks diving deep into every variable – demographics, service usage, p
 
 ### The shocking discoveries:
 
-Month-to-month contracts were 15x more likely to churn than two-year contracts (42.7% vs 2.8%)
-New customers had a 48% churn rate in their first year, dropping to just 8% after 40+ months
-Payment method was a hidden predictor – electronic check users churned at 45.3%
-Fiber optic customers, despite paying premium prices, had 41.9% churn rates
+  ✅ Month-to-month contracts were 15x more likely to churn than two-year contracts (42.7% vs 2.8%)
+  ✅ New customers had a 48% churn rate in their first year, dropping to just 8% after 40+ months
+  ✅ Payment method was a hidden predictor – electronic check users churned at 45.3%
+  ✅ Fiber optic customers, despite paying premium prices, had 41.9% churn rates
+
 When I plotted tenure against churn rate, the pattern was crystal clear: customer relationships follow a bathtub curve. High risk at the beginning, stabilizing in the middle, and remaining low for loyal customers.
 
 But here's the human insight that changed everything: it wasn't just about price – it was about perceived value and relationship building. Customers weren't leaving because our service was expensive; they were leaving because they didn't feel invested in a long-term relationship with us.
@@ -39,20 +40,24 @@ Through advanced clustering analysis, I discovered four distinct customer person
 
 1. The Loyal Advocates (21% of customers, 7.1% churn)
 
-Long tenure, moderate spending, strong contract commitments
-Strategy: Reward loyalty, encourage referrals
+  ✅ Long tenure, moderate spending, strong contract commitments
+  ✅ Strategy: Reward loyalty, encourage referrals
+  
 2. The Value Seekers (27% of customers, 14.7% churn)
 
-Recent customers, high service usage, price-conscious
-Strategy: Demonstrate ROI, provide usage analytics
+  ✅ Recent customers, high service usage, price-conscious
+  ✅ Strategy: Demonstrate ROI, provide usage analytics
+  
 3. The Fence Sitters (23% of customers, 23.3% churn)
 
-Moderate tenure, average spending, commitment-shy
-Strategy: Relationship building, contract incentives
+  ✅ Moderate tenure, average spending, commitment-shy
+  ✅ Strategy: Relationship building, contract incentives
+  
 4. The Flight Risks (29% of customers, 54.4% churn)
 
-Short tenure, high monthly charges, month-to-month contracts
-Strategy: Immediate intervention, personalized retention offers
+  ✅ Short tenure, high monthly charges, month-to-month contracts
+  ✅ Strategy: Immediate intervention, personalized retention offers
+
 The revelation? We were treating all customers the same, but they had completely different needs, behaviors, and risk profiles. Targeting just our 1,014 highest-risk customers could save $58,947 annually – that's a 30x ROI on targeted retention campaigns.
 
 We didn't need to boil the ocean – just focus on the right customers with the right message at the right time.
