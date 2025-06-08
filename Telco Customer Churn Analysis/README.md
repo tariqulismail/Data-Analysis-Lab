@@ -76,9 +76,13 @@ The key insight? Timing is everything. Most retention efforts happen after custo
 Three months after implementing these strategies:
 
 ✅ High-risk customer churn reduced by 18%
+
 ✅ First-year customer retention improved by 12%
+
 ✅ Contract migration campaigns exceeded targets by 23%
+
 ✅ Overall customer lifetime value increased by 8%
+
 But beyond the numbers, something more profound happened. Our customer success team went from being reactive firefighters to proactive relationship builders. Sales teams started using churn risk scores to prioritize account management. Marketing campaigns became hyper-targeted rather than spray-and-pray.
 
 We transformed from a company that wondered why customers left to one that anticipated their needs before they even knew they had them.
